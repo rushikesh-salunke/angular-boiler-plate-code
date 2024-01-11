@@ -1,3 +1,4 @@
 export const environment = {
-    production: false
+    production: false,
+    SENTRY_URL: "SENTRY_URL"
 };
