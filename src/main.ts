@@ -4,7 +4,7 @@ import { AppModule } from './app/app.module';
 import * as Sentry from '@sentry/angular-ivy';
 
 Sentry.init({
-  dsn: 'https://ec79a823ce184004d89d2f06b71faad0@o4506117942149120.ingest.sentry.io/4506309078155264',
+  dsn: 'environment.SENTRY_URL',
   integrations: [
     new Sentry.BrowserTracing({
       // Set 'tracePropagationTargets' to control for which URLs distributed tracing should be enabled
